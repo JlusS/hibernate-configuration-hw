@@ -29,7 +29,6 @@ public class MovieDaoImpl implements MovieDao {
         } finally {
             if (session != null) {
                 session.close();
-                System.out.println("1");
             }
         }
         return movie;
