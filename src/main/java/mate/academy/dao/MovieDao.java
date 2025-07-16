@@ -5,6 +5,6 @@ import mate.academy.model.Movie;
 
 public interface MovieDao {
     Movie add(Movie movie);
-//
+//Added some text
     Optional<Movie> get(Long id);
 }
